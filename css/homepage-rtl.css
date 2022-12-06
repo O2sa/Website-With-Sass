@@ -1,0 +1,79 @@
+@media (min-width: 992px) {
+  .header .logo {
+    float: right;
+    text-align: right;
+  }
+}
+
+.header .logo .the-toggle {
+  right: auto;
+  left: 15px;
+}
+
+@media (min-width: 992px) {
+  .header .navbar {
+    float: right;
+  }
+}
+
+.header .navbar li {
+  float: right;
+}
+
+@media (min-width: 992px) {
+  .services .service-box {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .players .player-box {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .lorem .lorem-box {
+    float: right;
+  }
+}
+
+.footer .gallery,
+.footer .info,
+.footer .contact {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .footer .gallery .img-box img {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .gallery .img-box .text {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .img-box img {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .img-box .text {
+    float: right;
+  }
+}
+
+.copyright .text,
+.copyright .author {
+  float: left;
+}
+
+.copyright .author {
+  text-align: left;
+}
+/*# sourceMappingURL=homepage-rtl.css.map */

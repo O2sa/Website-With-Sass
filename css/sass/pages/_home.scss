@@ -1,0 +1,129 @@
+// Start Slider
+.slider {
+  blockquote {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: tahoma, arial, helvetica;
+    margin: 30px auto;
+    width: 88%;
+    line-height: 1.7;
+    text-align: center;
+    color: #5e5e5e;
+    font-style: italic;
+  }
+  img {
+    max-width: 100%;
+  }
+  .bullets {
+    text-align: center;
+
+    li {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: $greyColor;
+      cursor: pointer;
+      &.active,
+      &:hover {
+        background-color: #fff;
+        border: 3px solid #333;
+      }
+    }
+  }
+}
+// End Slider
+
+// Start Services
+.services {
+  .service-box {
+    @media #{$maxMobile} {
+      i {
+        display: block;
+        margin-bottom: 15px;
+      }
+    }
+    @media #{$minMedium} {
+      float: $float_left;
+      width: (100% /3);
+      &:not(:last-of-type) {
+        padding-right: 20px;
+      }
+    }
+
+    .service-title {
+      color: #666;
+      i {
+        position: relative;
+        top: 4px;
+        font-size: 35;
+      }
+    }
+    .service-desc {
+      color: #777;
+      line-height: 1.5;
+    }
+    .link {
+      color: $redColor;
+    }
+  }
+}
+// End Services
+
+// Start Players
+.players {
+  .player-box {
+    @media #{$minSmall} {
+      float: $float_left;
+      width: (100% /2);
+      margin-bottom: 40px;
+      text-align: center;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    @media #{$minMedium} {
+      width: (100% /3);
+    }
+    @media #{$minLarge} {
+      width: (100% /5);
+    }
+    img {
+width: 200px;    }
+    .player-title {
+      color: #666;
+      font-weight: normal;
+      span {
+        font-weight: bold;
+      }
+    }
+    .player-desc {
+      color: #777;
+      line-height: 1.5;
+    }
+    .link {
+      color: $redColor;
+    }
+  }
+}
+// End Players
+// Start Lorem
+.lorem {
+  .lorem-box {
+  
+    @media #{$minSmall} {
+      width: (94%/3);
+      float: $float_left;
+      padding: 10px;
+     
+    }
+  @media #{$maxMobile} {
+      width: 90%;
+      margin: 40px auto;
+
+    }
+    .lorem-img {
+      max-width: 100%;
+    }
+  }
+}
+// End Lorem
